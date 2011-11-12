@@ -1,0 +1,163 @@
+/*  courtesy of HTML5 Boilerplate  */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,  footer, header, hgroup, 
+menu, nav, section, summary, time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}                  
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+nav ul { list-style:none; }
+
+body { font: 13px/1.231 sans-serif; *font-size: small; } 
+
+body, select, input, textarea { color: #444; }
+html { overflow-y: scroll; }
+
+a:hover, a:active { outline: none; }
+a, a:active, a:visited { color: #607890; }
+a:hover { color: #036; }
+
+ul, ol { margin-left: 1.8em; }
+ol { list-style-type: decimal; }
+
+/* Primary Styles
+	Author: Louis Lazaris
+*/
+
+p {
+	padding: 0 0 20px 0;
+}
+
+#container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 32px;
+	text-align: center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	text-shadow: #ddd 2px 2px 2px;
+	color: #888;
+	padding: 20px 0;
+}
+
+h2 {
+	font-size: 18px;
+	font-weight: normal;
+	text-align: center;
+	padding: 0 0 20px 0;
+}
+
+nav ul {
+	height: 30px;
+	overflow: hidden;
+	border: solid 1px #ccc;
+	width: 960px;
+	margin: 0 auto;
+}
+
+	nav ul li {
+		float: left;
+	}
+
+		nav ul li a, nav ul li a:link, nav ul li a:visited {
+			display: block;
+			height: 30px;
+			padding: 0 20px;
+			float: left;
+			line-height: 30px;
+			text-decoration: none;
+			border-right: solid 1px #ccc;
+		}
+
+		nav ul li a:hover, nav ul li a:active {
+			color: black;	
+		}
+		
+		nav ul li a.active, nav ul li a.active:link, nav ul li a.active:visited {
+			background: #ccc;
+			color: #fff;
+		}
+	
+		nav ul li a span {
+			color: #ccc;
+			font-size: 11px;
+			_font-size: 9px; /* for IE6 */
+		}
+		
+		nav ul li a.active span {
+			color: #fff;
+			font-size: 11px;
+			_font-size: 9px; /* for IE6 */
+		}
+
+	#dropdown {
+		width: 960px;
+		margin: 0 auto;
+		border: solid 1px #ccc;
+		border-top: none;
+		display: none;
+		position: relative;
+		overflow: hidden;
+		height: 270px;
+	}
+	
+		#ajax {
+			padding: 20px;
+		}
+		
+			#ajax h2 {
+				text-align: center;
+				font-size: 40px;
+				color: #bbb;
+			}
+	
+	.loading {
+		background: transparent url(../images/loading.gif) no-repeat center center;
+	}
+	
+	#dropdown.minheight {
+		min-height: 270px;
+		height: auto;
+		_height: 270px; /* for I6 */
+	}
+	
+	#main {
+		padding: 20px 0 0 0;
+	}
+	
+	.close {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+	}
+	
+	#ajax {
+		overflow: hidden;
+	}
+
+	#ajax ul {
+		float: left;
+		width: 300px;
+		padding: 0 30px 0 20px;
+	}
+	
+		#ajax ul li {
+			padding: 3px 0;
+		}
+		
+		footer p {
+			text-align: center;
+		}
